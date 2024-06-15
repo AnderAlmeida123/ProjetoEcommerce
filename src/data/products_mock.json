@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Relogio Elegante",
+    "price": 50.99,
+    "image": "https://a-static.mlcdn.com.br/450x450/relogio-dourado-feminino-de-pulso-quartz-luxo-mini-pequeno-pendulari/sitependulari/rf-11aa/dcf10b152d38f724fa73a08b14b68ea3.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Camera Vintage",
+    "price": 85.5,
+    "image": "https://lojaminasdepresentes.com.br/media/catalog/product/cache/1/thumbnail/1200x1400/9df78eab33525d08d6e5fb8d27136e95/a/t/at1704b-2055brn_5_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fones de Ouvido",
+    "price": 35.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxKlYq5LJtF1S8ab0Y_LxN5OW4hTcKna--fQ&s"
+  },
+  {
+    "id": 4,
+    "name": "Tenis de Corrida",
+    "price": 120.0,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwY2miItTmfhxj-MyeGCN2LZS_AinlarVTcA&s"
+  },
+  {
+    "id": 5,
+    "name": "Smartphone",
+    "price": 299.99,
+    "image": "https://multilaser.vtexassets.com/arquivos/ids/1195370-800-auto?v=638521694805870000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 6,
+    "name": "Livro de Aventura",
+    "price": 19.99,
+    "image": "https://recreio.uol.com.br/media/uploads/legacy/2020/04/09/livros-de-aventura-que-todo-fa-do-genero-deveria-conhecer-1221624.png"
+  }
+]
