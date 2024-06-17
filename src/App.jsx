@@ -45,6 +45,13 @@ function App() {
     });
   };
 
+  const handleRemoveFromCart = (product) => {
+    toast.error(`${product.name} foi removido com sucesso`);
+    setCartItems((prevItems) =>
+      prevItems.filter((item) => item.id !== product.id)
+    );
+  };
+
   return (
     <BrowserRouter>
       <nav>
@@ -57,7 +64,20 @@ function App() {
           <Route
             path="/cart"
             element={
-              <Cart cartItems={cartItems} onUpdateCart={handleUpdateCart} />
+              <Cart
+                cartItems={cartItems}
+                onUpdateCart={handleUpdateCart}
+                onRemoveFromCart={handleRemoveFromCart}
+                setCartItems={setCartItems}
+                onCheckout={() => {
+                  if (cartItems.length > 0) {
+                    toast.success("Compra finalizada com sucesso!");
+                    setCartItems([]);
+                  } else {
+                    toast.error("Seu carrinho está vazio");
+                  }
+                }}
+              />
             }
           />
           <Route path="/thank-you" element={<ThankYouPage />} />
